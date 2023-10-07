@@ -44,26 +44,4 @@ public class LinearLayout extends AppCompatActivity {
             }
         });
     }
-
-    protected void onPause(){
-        super.onPause();
-        title.append("\nonPause");
-        tripAsk.append("\nonPause");
-        driverName.append("\nonPause");
-        tripDate.append("\nonPause");
-        tripTime.append("\nonPause");
-        experienceText.append("\nonPause");
-        button.append("\nonPause");
-    }
-
-    protected void onStop(){
-        super.onStop();
-        title.append("\nonStop");
-        tripAsk.append("\nonStop");
-        driverName.append("\nonStop");
-        tripDate.append("\nonStop");
-        tripTime.append("\nonStop");
-        experienceText.append("\nonStop");
-        button.append("\nonStop");
-    }
 }

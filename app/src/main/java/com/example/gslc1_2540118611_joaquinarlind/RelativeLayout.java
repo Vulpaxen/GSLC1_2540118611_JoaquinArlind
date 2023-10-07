@@ -61,42 +61,4 @@ public class RelativeLayout extends AppCompatActivity {
             }
         });
     }
-
-    protected void onPause() {
-        super.onPause();
-        titleViewProfile.append("\nonPause");
-        nameText.append("\nonPause");
-        passwordText.append("\nonPause");
-        enablePVP.append("\nonPause");
-        termsCondition.append("\nonPause");
-        gmailText.append("\nonPause");
-        switch1.append("\nonPause");
-        checkBox.append("\nonPause");
-        nameEdit.append("\nonPause");
-        passwordEdit.append("\nonPause");
-        emailEdit.append("\nonPause");
-        submitProfileBtn.append("\nonPause");
-        nameButton.append("\nonPause");
-        passwordButton.append("\nonPause");
-        cancelBtn.append("\nonPause");
-    }
-
-    protected void onStop() {
-        super.onStop();
-        titleViewProfile.append("\nonStop");
-        nameText.append("\nonStop");
-        passwordText.append("\nonStop");
-        enablePVP.append("\nonStop");
-        termsCondition.append("\nonStop");
-        gmailText.append("\nonStop");
-        switch1.append("\nonStop");
-        checkBox.append("\nonStop");
-        nameEdit.append("\nonStop");
-        passwordEdit.append("\nonStop");
-        emailEdit.append("\nonStop");
-        submitProfileBtn.append("\nonStop");
-        nameButton.append("\nonStop");
-        passwordButton.append("\nonStop");
-        cancelBtn.append("\nonStop");
-    }
 }
